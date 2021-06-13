@@ -12,9 +12,9 @@ image2.setAttribute("src", image2src);
 
 // Change title to display winner
 if (randomNumber1 > randomNumber2) {
-  document.querySelector("h1").innerHTML = "Player 1 wins!";
+  document.querySelector("h1").innerHTML = "🚩Player 1 wins!";
 } else if (randomNumber1 === randomNumber2) {
   document.querySelector("h1").innerHTML = "Draw!";
 } else {
-  document.querySelector("h1").innerHTML = "Player 2 wins!";
+  document.querySelector("h1").innerHTML = "Player 2 wins!🚩";
 }
